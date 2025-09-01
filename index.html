@@ -2,14 +2,24 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Afinador Online</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Afinador Online 🎸</h1>
   <button onclick="startTuner()">Ativar Microfone</button>
-  <div class="note" id="note">--</div>
-  <div class="freq" id="freq">0 Hz</div>
+
+  <div class="display">
+    <div class="note" id="note">--</div>
+    <div class="freq" id="freq">0 Hz</div>
+  </div>
+
+  <div class="tuner">
+    <div class="arrow" id="arrow">↑</div>
+    <div class="status" id="status">--</div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>

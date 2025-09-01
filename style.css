@@ -4,19 +4,11 @@ body {
   margin-top: 50px;
   background: #f2f2f2;
 }
+
 h1 {
   color: #333;
 }
-.note {
-  font-size: 60px;
-  margin-top: 20px;
-  color: #0077cc;
-}
-.freq {
-  font-size: 24px;
-  margin-top: 10px;
-  color: #444;
-}
+
 button {
   padding: 10px 20px;
   font-size: 18px;
@@ -26,6 +18,37 @@ button {
   background: #0077cc;
   color: #fff;
 }
+
 button:hover {
   background: #005fa3;
+}
+
+.display {
+  margin-top: 20px;
+}
+
+.note {
+  font-size: 60px;
+  color: #0077cc;
+}
+
+.freq {
+  font-size: 24px;
+  color: #444;
+}
+
+.tuner {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.arrow {
+  color: #0077cc;
+  transition: transform 0.2s;
+}
+
+.status {
+  font-size: 24px;
+  color: #444;
+  margin-top: 10px;
 }
